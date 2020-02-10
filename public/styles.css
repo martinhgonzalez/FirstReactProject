@@ -1,0 +1,160 @@
+body {
+  font-family: "Merriweather", serif;
+  margin: 0 auto;
+  background-color: #dfe6e9;
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+  height: 75px;
+  text-align: left;
+  color: white;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+aside {
+  background-color: black;
+  color: white;
+  width: 20%;
+}
+
+main {
+  width: 80%;
+}
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: contents;
+  margin: 0;
+  padding: 0;
+}
+
+.input1 {
+  background-color: black;
+  border-color: black;
+  border-bottom-color: white;
+  margin: 15px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  width: 80%;
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
+  padding: 12.5px 0;
+}
+
+.personalInfo {
+  background-color: grey;
+  color: white;
+  padding: 5px;
+}
+
+.afterNavContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #00cec9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.name {
+  font-size: 2em;
+  color: #2d3436;
+  display: flex;
+  flex: 1;
+  margin: 10% 20px 0;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #81ecec;
+  margin: 50px 0;
+  width: 30%;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+}
+
+.tech-img {
+  width: 100px;
+  height: 100px;
+}
+
+.bottom {
+  margin-top: 120px;
+}
+
+.info {
+  margin: 20px 0;
+  color: #1a7e76;
+}
+
+/*Modal Snippet*/
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
