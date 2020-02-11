@@ -4,21 +4,30 @@ function Aside() {
   return (
     <aside>
       <div className="personalInfo">
-        <p>Martin Horacio Gonzalez</p>
+        <p>MARTIN HORACIO GONZALEZ</p>
         <p>DNI: 37719551</p>
-        <p>26 years old</p>
+        <p>26 YEARS OLDS</p>
       </div>
       <div>
-        <input className="input1" placeholder="Search" type="text" />
+        <input className="input1" placeholder="Search in cards" type="text" />
       </div>
-      <div>
-        <h3>Filter by technology:</h3>
-        <input name="techFilter" type="radio" />
-        <label>Front-End</label>
+      <div className="input2">
+        <h3>Filter by:</h3>
+        <br />
+
+        <label>
+          <input name="techFilter" type="radio" />
+          Frontend
+        </label>
         <br />
         <br />
-        <input name="techFilter" type="radio" />
-        <label>Back-End</label>
+        <br />
+
+        <label>
+          {" "}
+          <input name="techFilter" type="radio" />
+          Backend
+        </label>
       </div>
     </aside>
   );
