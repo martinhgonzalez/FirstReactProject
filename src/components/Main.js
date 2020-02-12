@@ -39,7 +39,8 @@ class Main extends React.Component {
   render() {
     return (
       <div className="afterNavContainer">
-        <Aside />
+        {this.props.showAside ? <Aside /> : null}
+
         {this.state.idClicked === 0
           ? this.showCards()
           : this.showTechContent(this.state.idClicked - 1)}

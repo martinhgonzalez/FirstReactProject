@@ -81,7 +81,7 @@ const technologies = [
     previewImage:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
     fullImage:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQh4vM3VRXXKLnPEDS9j8CKmtaD20iT3T8i9-I9d2xx7Ll2s6sC",
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
 
     graphic: "",
     usage: "backEnd"

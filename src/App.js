@@ -1,12 +1,18 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import Nav from "./components/Nav";
 import Main from "./components/Main";
 
 function App() {
+  const [showAside, setshowAside] = useState(true);
+
+  const clickedIconFunc = () => {
+    setshowAside(!showAside);
+  };
+
   return (
     <Fragment>
-      <Nav />
-      <Main />
+      <Nav clickedIcon={clickedIconFunc} />
+      <Main showAside={showAside} />
     </Fragment>
   );
 }
