@@ -26,9 +26,11 @@ aside {
   background-color: black;
   color: white;
   width: 20%;
+  max-width: 20%;
+  min-width: 20%;
 }
 
-main {
+.right {
   width: 80%;
 }
 
@@ -117,4 +119,36 @@ nav img {
 
 .bottom {
   margin-top: 150px;
+}
+
+.extendedInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameExtended {
+  text-align: left;
+  position: relative;
+  left: 50px;
+  font-size: 25px;
+}
+
+.fullImage {
+  height: 20%;
+  width: 100%;
+}
+
+.goBackhover {
+  color: gray;
+}
+.goBack {
+  color: white;
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  left: 15px;
+}
+
+.extendedTop {
+  background-color: black;
 }

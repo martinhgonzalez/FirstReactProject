@@ -11,7 +11,7 @@ const technologies = [
     previewImage:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
     fullImage:
-      "https://luminfire.com/wp-content/uploads/2017/12/JavaScript_Logo.png",
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
     graphic: "",
     usage: "frontEnd"
   },
@@ -24,7 +24,8 @@ const technologies = [
       "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a JavaScript everywhere paradigm, unifying web-application development around a single programming language, rather than different languages for server- and client-side scripts.",
     previewImage:
       "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
-    fullImage: "https://miro.medium.com/max/2800/0*P6cyY15a9gyXu7NW.",
+    fullImage:
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
     graphic: "",
     usage: "frontEnd"
   },
@@ -37,7 +38,8 @@ const technologies = [
       "React (also known as React.js or ReactJS) is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. However React is only concerned with rendering data to the DOM and so creating React applications usually requires the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries.",
     previewImage:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
-    fullImage: "https://miro.medium.com/max/3840/0*oZLL-N4dGNlBe4Oh.png",
+    fullImage:
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
     graphic: "",
     usage: "backEnd"
   },
@@ -51,7 +53,7 @@ const technologies = [
     previewImage:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
     fullImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1200px-Python_logo_and_wordmark.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
     graphic: "",
     usage: "frontEnd"
   },
@@ -64,7 +66,8 @@ const technologies = [
       "Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.",
     previewImage:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/230px-HTML5_logo_and_wordmark.svg.png",
-    fullImage: "https://www.aplymas.es/wp-content/uploads/2019/10/HTML55.png",
+    fullImage:
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
     graphic: "",
     usage: "backEnd"
   },
@@ -79,6 +82,7 @@ const technologies = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
     fullImage:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQh4vM3VRXXKLnPEDS9j8CKmtaD20iT3T8i9-I9d2xx7Ll2s6sC",
+
     graphic: "",
     usage: "backEnd"
   }

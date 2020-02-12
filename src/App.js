@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 import Nav from "./components/Nav";
-import AfterNav from "./components/AfterNav";
+import Main from "./components/Main";
 
 function App() {
   return (
     <Fragment>
       <Nav />
-      <AfterNav />
+      <Main />
     </Fragment>
   );
 }
