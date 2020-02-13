@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 import Main from "./components/Main";
 
 function App() {
-  const [showAside, setshowAside] = useState(true);
+  let [showAside, setshowAside] = useState(true);
 
   const clickedIconFunc = () => {
     setshowAside(!showAside);

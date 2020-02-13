@@ -7,18 +7,28 @@ function CardContainer(props) {
     props.onClick2(e);
   };
 
-  function createCard(technologies) {
-    return (
-      <Card
-        key={technologies.id}
-        id={technologies.id}
-        name={technologies.name}
-        previewText={technologies.previewText}
-        img={technologies.previewImage}
-        usage={technologies.usage}
-        onClick={cardClick}
-      />
-    );
+  function createCard(technology) {
+    console.log("en CC " + props.radioUpdates);
+    if (
+      (props.radioUpdates === null ||
+        props.radioUpdates === technology.usage) &&
+      (props.searchUpdates === null ||
+        technology.fullText
+          .toLowerCase()
+          .search(props.searchUpdates.toLowerCase()) !== -1)
+    ) {
+      return (
+        <Card
+          key={technology.id}
+          id={technology.id}
+          name={technology.name}
+          previewText={technology.previewText}
+          img={technology.previewImage}
+          usage={technology.usage}
+          onClick={cardClick}
+        />
+      );
+    }
   }
 
   return (

@@ -13,7 +13,7 @@ const technologies = [
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
     graphic: "",
-    usage: "frontEnd"
+    usage: "backEnd"
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const technologies = [
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
     graphic: "",
-    usage: "frontEnd"
+    usage: "backEnd"
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const technologies = [
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
     graphic: "",
-    usage: "backEnd"
+    usage: "frontEnd"
   },
   {
     id: 4,
@@ -55,7 +55,7 @@ const technologies = [
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
     graphic: "",
-    usage: "frontEnd"
+    usage: "backEnd"
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ const technologies = [
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
     graphic: "",
-    usage: "backEnd"
+    usage: "frontEnd"
   },
   {
     id: 6,
@@ -84,7 +84,7 @@ const technologies = [
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
 
     graphic: "",
-    usage: "backEnd"
+    usage: "frontEnd"
   }
 ];
 
