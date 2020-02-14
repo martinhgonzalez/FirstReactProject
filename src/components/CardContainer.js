@@ -18,7 +18,7 @@ function CardContainer(props) {
     ) {
       return (
         <Card
-          key={technology.id} // Puede que no sea necesario
+          key={technology.id} 
           id={technology.id}
           name={technology.name}
           previewText={technology.previewText}

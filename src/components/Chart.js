@@ -34,7 +34,7 @@ class Chart extends React.Component {
           options={{
             title: {
               display: "asd",
-              text: "StackOverflow qu estions by Technology",
+              text: "StackOverflow questions by Technology",
               fontSize: 25
             }
           }}
