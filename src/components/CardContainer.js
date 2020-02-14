@@ -8,7 +8,6 @@ function CardContainer(props) {
   };
 
   function createCard(technology) {
-    console.log("en CC " + props.radioUpdates);
     if (
       (props.radioUpdates === null ||
         props.radioUpdates === technology.usage) &&
@@ -19,7 +18,7 @@ function CardContainer(props) {
     ) {
       return (
         <Card
-          key={technology.id}
+          key={technology.id} // Puede que no sea necesario
           id={technology.id}
           name={technology.name}
           previewText={technology.previewText}

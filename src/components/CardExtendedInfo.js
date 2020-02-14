@@ -1,4 +1,5 @@
 import React from "react";
+import Chart from "./Chart";
 
 function CardExtendedInfo(props) {
   const back = () => {
@@ -15,7 +16,9 @@ function CardExtendedInfo(props) {
       <img className="fullImage" src={props.fullImage} alt="img" />
       <p className="fullText">{props.fullText}</p>
       <h4 className="nameExtended">{props.name}</h4>
-      <div>{props.graphic}</div>
+      <div>
+        <Chart />
+      </div>
     </div>
   );
 }

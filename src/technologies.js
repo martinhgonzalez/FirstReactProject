@@ -12,7 +12,6 @@ const technologies = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
-    graphic: "",
     usage: "backEnd"
   },
   {
@@ -26,7 +25,6 @@ const technologies = [
       "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
-    graphic: "",
     usage: "backEnd"
   },
   {
@@ -40,7 +38,6 @@ const technologies = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
-    graphic: "",
     usage: "frontEnd"
   },
   {
@@ -54,7 +51,6 @@ const technologies = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
-    graphic: "",
     usage: "backEnd"
   },
   {
@@ -68,7 +64,6 @@ const technologies = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/230px-HTML5_logo_and_wordmark.svg.png",
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
-    graphic: "",
     usage: "frontEnd"
   },
   {
@@ -83,7 +78,6 @@ const technologies = [
     fullImage:
       "https://upload.wikimedia.org/wikipedia/commons/7/76/Code_Black_Logo.png",
 
-    graphic: "",
     usage: "frontEnd"
   }
 ];

@@ -23,8 +23,6 @@ class Main extends React.Component {
   }
 
   showCards() {
-    console.log("En MAIN " + this.state.techUsage);
-
     return (
       <CardContainer
         onClick2={this.cardClick2}
@@ -40,7 +38,6 @@ class Main extends React.Component {
         fullText={technologies[id].fullText}
         fullImage={technologies[id].fullImage}
         name={technologies[id].name}
-        graphic="Aqui va un grafico"
         goBackFunc={this.gotBack}
       />
     );
@@ -51,7 +48,6 @@ class Main extends React.Component {
       this.setState({
         techUsage: e.target.value
       });
-      this.render();
     }
   }
   searchUpdatesM(e) {
@@ -59,7 +55,6 @@ class Main extends React.Component {
       this.setState({
         searching: e.target.value
       });
-      this.render();
     }
   }
 

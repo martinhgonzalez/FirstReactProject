@@ -42,7 +42,6 @@ function Aside(props) {
         <br />
 
         <label>
-          {" "}
           <input
             onChange={changedSelection}
             value="backEnd"
